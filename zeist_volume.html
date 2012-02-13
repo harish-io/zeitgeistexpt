@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Volume Chart Demo</title>
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css" /></head>
+<link href="appstyle.css" rel="stylesheet" type="text/css" /></head>
+
+<script src="lib/easel.js"></script>
+<script src="jquery.js"></script>
+<script src="Tween.js"></script>
+<script src="volumechart.js"></script>
+<body>
+	<div id="header">
+    	<p>Dataviz Experiment #1</p>
+    </div>
+	<div id="holder">
+		<div id="chartHolder" class="normal">
+        	<canvas id="canvas">
+           
+            </canvas>
+             <div id="adv">
+             	<a href="#" onclick="doScroll(1)"><img src="img/left_btn.png" /></a>
+                <a href="#" onclick="doScroll(0)" style="float:right"><img src="img/right_btn.png" /></a>
+        	 </div>
+           
+             <div id="weeks">
+             	<h3 id="w1">WEEKS 1-4</h3>
+                <h3 id="w2">WEEKS 5-9</h3>
+				<h3 id="w3">WEEKS 10-14</h3>
+                <h3 id="w4">WEEKS 14-20</h3>
+             </div>
+        </div>
+          <div class="ribbed" id="ribbedDiv">
+             	<h4>Zeistgeist<span class="greyheader">&nbsp;:&nbsp;Volume Chart</span></h4>
+      
+          </div>
+     </div>
+</body>
+</html>

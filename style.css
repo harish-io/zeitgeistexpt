@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	background:#F7F7F7;
+	position:absolute;
+}
+#holder
+{
+	background:#FFF;
+	width:600px;
+	height:450px;
+	border:dotted #CCC 1px;
+	padding-left:20px;
+	padding-top:50px;
+	top:100px;
+	left:30px;
+	position:absolute;
+}
+#chartHolder
+{
+	background-image: url(img/background.png);
+	background-repeat:repeat-x;
+	width:560px;
+	height:420px;
+	position:absolute;
+	z-index:0;
+
+}
+.animateLeft
+{
+	
+	-moz-transition-property: background-position;  
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: background-position;  
+	-webkit-transition-duration: 1s;  
+	-webkit-transition-timing-function: linear;
+	-o-transition-property: background-position;  
+	-o-transition-duration: 1s;  
+	-o-transition-timing-function: linear;
+	transition-property: background-position;  
+	transition-duration: 1s;  
+	transition-timing-function: linear;
+	background-position: -510px 0, -510px 0, -3800px 0, -3000px 0;
+}
+.animateRight
+{
+	
+	-moz-transition-property: background-position;  
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: background-position;  
+	-webkit-transition-duration: 1s;  
+	-webkit-transition-timing-function:  cubic-bezier(0.165,0.84,0.44,1);
+	-o-transition-property: background-position;  
+	-o-transition-duration: 1s;  
+	-o-transition-timing-function: linear;
+	transition-property: background-position;  
+	transition-duration: 1s;  
+	transition-timing-function: linear;
+	background-position: 510px 0, 510px 0, -3800px 0, -3000px 0;
+}
+.normal
+{
+	background-image: url(img/background.png);
+	background-repeat:repeat-x;
+	width:560px;
+	height:420px;
+}
+#canvas
+{
+  position:absolute;
+  
+}
+#adv
+{
+	z-index:5;
+	bottom:20px;
+	left:5px;
+	position:absolute;
+	width:560px;
+	height:30px;
+}
+#weeks
+{
+	z-index:8;
+	bottom:55px;
+	left:5px;
+	position:absolute;
+	width:560px;
+	height:30px;
+	
+}
+#w1
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:8px;
+	font-style:italic;
+	color:#999;
+	left:40px;
+	position:absolute;
+}
+#w2
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:8px;
+	font-style:italic;
+	color:#999;
+	left:160px;
+	position:absolute;
+}
+#w3
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:8px;
+	font-style:italic;
+	color:#999;
+	left:280px;
+	position:absolute;
+}
+#w4
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:8px;
+	font-style:italic;
+	color:#999;
+	left:400px;
+	position:absolute;
+}
+.leftBtn
+{
+	background-image:url(img/left_btn.png);
+}
+.animateDown
+{
+	-webkit-transform: translate(0px, 10px);
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration: 0.4s;  
+	-webkit-transition-timing-function:  cubic-bezier(0.165,0.84,0.44,1);
+	opacity:0;
+}
+.resetLabelPos
+{
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration: 0.4s;  
+	-webkit-transition-timing-function:  cubic-bezier(0.165,0.84,0.44,1);
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:8px;
+	font-style:italic;
+	color:#999;
+	position:absolute;
+	bottom:7px;
+}
+.ribbed
+{
+	position:absolute;
+	z-index:9;
+	width:100%;
+	top:5px;
+	left:30px;
+	height:10px;
+}
+#lineCanvas
+{
+	z-index:30;
+	width:300px;
+	height:200px;
+	background:#DDD;
+}
+.greyheader
+{
+	color:#999;
+}
+h4
+{
+	font-family: 'Droid Sans', sans-serif;
+}
+#header
+{
+	position:absolute;
+	top:2px;
+	left:30px;
+	width:560px;
+	
+}
+p
+{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:36px;
+}

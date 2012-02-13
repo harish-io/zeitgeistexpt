@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+.cap
+{
+	background-image:url(img/ribbedscaler2.png);
+	background-repeat:repeat-y;
+	position:absolute;
+	background-position:0px -10px 10px 10px;
+}
+#holder
+{
+	background:url(img/background1.png) no-repeat;
+	background-position:center top ;
+	position:absolute;
+	height:468px;
+	width:700px;
+	left:0px;
+	top:100px;
+
+}
+#canvas
+{
+	height:278px;
+	width:617px;
+	left:0px;
+	top:0px;
+	position:absolute;
+}
+#colored
+{
+	width:100px;
+	height:200px;
+	background-color:#666;
+	position:absolute;
+}
+#capimg
+{
+	bottom:-6px;
+	left:-3px;
+	position:absolute;
+}
+#bluecap
+{
+	position:absolute;
+	top:-5px;
+}
+#ribbon
+{
+	position:absolute;
+	background-image:url(img/rib1.png);
+	background-repeat:no-repeat;
+	left:50px;
+	top:230px;
+}
+#slider
+{
+	position:absolute;
+	background-image:url(img/slidergrey.png);
+	background-repeat:no-repeat;
+}
+#thumb
+{
+	position:absolute;
+	left:40px;
+	top:110px
+}
+.bright
+{
+	opacity:.5;
+}
+.dull
+{
+	opacity:0.09;
+}
+#ranger
+{
+	position: absolute; 
+	left: 380px; 
+	top: 290px; 
+	width:350px; 
+	height:100px;
+	background-color:#C00;
+	-webkit-transform:rotate( -24deg );
+}
+h4
+{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:24px;
+	top:50px;
+	left:410px;
+	position:absolute;
+	-webkit-transform:rotate( -24deg );
+	-webkit-transform:skew(0,24deg)
+
+
+}
+#s0
+{
+		-webkit-transform:rotate( -24deg );
+		position:absolute;
+		left:500px;
+		top:300px;
+		
+	
+
+}
